@@ -1,2 +1,2 @@
 # Personal Website
-https://reneezzz.github.io/
+https://reneezbizika.github.io/
