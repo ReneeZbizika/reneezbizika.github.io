@@ -1,385 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-0.872831425-0.8"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-	gtag('config', 'UA-0.872831425-0.8');
-	</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPH2YST3Z6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    gtag('config', 'G-DPH2YST3Z6');
+    </script>
 
-	<meta content="en-us" http-equiv="Content-Language">
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<title>Xiaomeng Xu</title>
-	<meta charset="utf-8">
-	<style type="text/css">
-		body {font-family: 'Calibri', Times, serif}
-		a {text-decoration:none}
-		a:any-link{color: darkblue}
-　　 	a:link{color:darkblue;}
-		a:visited{color:darkslateblue;}
-        a:hover{color:darkgreen;}
-
-	</style>
+    <title> Xiaomeng Xu </title>
+    <!-- <link rel="icon" type="image/x-icon" href="assets/images/stanford.ico"> -->
 </head>
 
+<body>
+    <div style="width:1000px;margin: 0px auto;">
+        <header id="header" width="400px" style="display:flex;justify-content: space-around;">
+            <a href="#profile-intro">Home</a>
+            <a href="#updates">News</a>
+            <a href="#research">Research</a>
+            <a href="#blog">Blog</a>
+            <a href="#talks">Talks</a>
+            <a href="#service">Service</a>
+        </header>
+        <div id="profile">
+            <div id="profile-pic">
+                <img src="figs/headshot_mid.jpg" />
+            </div>
+            <div id="profile-intro">
+                <div id="profile-name">Xiaomeng Xu 徐霄萌</div>
+                <div id="profile-email">xuxm at stanford dot edu</div>
+                <p>
+                    I am a third-year PhD candidate in Electrical Engineering at Stanford University, advised by Prof. <a href="https://shurans.github.io/">Shuran Song</a> and part of the <a href="http://real.stanford.edu/">REALab</a>. I'm grateful to be supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sigf">Stanford Interdisciplinary Graduate Fellowship</a>. Previously, I obtained a B.E. in Automation Engineering and a B.A. in Product Design from Tsinghua University. During my undergrad, I was fortunate to be advised by Prof. <a href="http://geometry.stanford.edu/member/guibas/index.html">Leonidas J. Guibas</a> at Stanford and Prof. <a href="https://ericyi.github.io/">Li Yi</a> at Tsinghua University.
+                    <br>
+                    <br>
+                    My research focuses on leveraging machine learning algorithms to design and control robots, enabling them to perform complex manipulation tasks efficiently and robustly in the real world. Specifically, I'm interested in whole-body and mobile manipulation, whole-body sensing, generative robot design, and contact-rich manipulation.
+                </p>
+                <div>
+                    <a href="cv/cv_xxm.pdf">
+                        CV
+                    </a>
+                    /
+                    <a href="https://scholar.google.com/citations?hl=en&user=af_4iHYAAAAJ">
+                        GScholar
+                    </a>
+                    /
+                    <a href="https://twitter.com/XiaomengXu11">
+                        Twitter
+                    </a>
+                    /
+                    <a href="https://github.com/xxm19">
+                        Github
+                    </a>
+                    /
+                    <a href="https://www.linkedin.com/in/xiaomeng-xu-449b6825a">
+                        LinkedIn
+                    </a>
+                    </a>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="section" id="updates">
+            <h1>News</h1>
+            <ul>
+                <li> <b>Jun 2026</b> Excited to be joining Amazon FAR team in SF as a research intern.</li>
+                <li> <b>Jan 2026</b> We are organizing the <a href="https://rl4il-icra.github.io">Workshop on Reinforcement Learning in the Era of Imitation Learning @ ICRA 2026</a>!</li>
+                <li> <b>Sep 2025</b> <a href="https://compliant-residual-dagger.github.io/">Compliant Residual DAgger</a> is accepted to NeurIPS 2025 and won Best Paper at the <a href="https://sites.google.com/view/h2r-corl2025/home">Human-to-Robot Workshop @ CoRL 2025</a>!</li>
+                <li> <b>Jun 2025</b> Research intern at <a href="https://www.tri.global/our-work/large-behavior-models">TRI LBM</a> team in Cambridge, MA.</li>
+                <li> <b>May 2025</b> Grateful to be awarded the <a href="https://vpge.stanford.edu/fellowships-funding/sigf">Stanford Interdisciplinary Graduate Fellowship</a>.</li>
+                <li> <b>Apr 2025</b> <a href="https://robopanoptes.github.io/">RoboPanoptes</a> is accepted to RSS 2025, see you in LA! 🐍</li>
+                <li> <b>Nov 2024</b> <a href="https://dgdm-robot.github.io">Dynamics-Guided Diffusion Model</a> won Best Machine Learning Paper at the <a href="https://sites.google.com/view/corl-mapodel-workshop">MAPoDeL Workshop @ CoRL 2024</a>!</li>
+                <li> <b>Sep 2024</b> <a href="https://dgdm-robot.github.io">Dynamics-Guided Diffusion Model</a> is accepted to CoRL 2024. 🎉</li>
+                <li> <b>Sep 2023</b> Started PhD at Stanford University. 🌲</li>
+                <li> <b>Jun 2023</b> Graduated from Tsinghua University with the highest honor. 🎓</li>
+                <li> <b>Jun 2022</b> Research intern at Stanford through the <a href="https://engineering.stanford.edu/students-academics/programs/global-engineering-programs/chinese-ugvr">UGVR program</a> advised by Prof. <a href="http://geometry.stanford.edu/member/guibas/index.html">Leonidas J. Guibas.</li>
+            </ul>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction: column;" id="research">
+            <h1>Research</h1>
+            <div>
+                <a href="https://hommi-robot.github.io/" style="height: 12em;" class="research-thumb">
+                    <img src="figs/hommi_teaser.gif" alt="HoMMI" style="width: 100%; height: auto;">
+                </a>
+                <a href="https://hommi-robot.github.io/" class="research-proj-title">HoMMI: Learning Whole-Body Mobile Manipulation from Human Demonstrations</a>
+                <p>
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://jisangpark.com">Jisang Park</a>,
+                    <a style="color:#000;" href="https://doublehan07.github.io/">Han Zhang</a>,
+                    <a style="color:#000;" href="https://www.eacousineau.com">Eric Cousineau</a>,
+                    <a style="color:#000;" href="https://www.linkedin.com/in/mradityabhat/">Aditya Bhat</a>,
+                    <a style="color:#000;" href="https://www.josebarreiros.com">Jose Barreiros</a>,
+                    <a style="color:#000;" href="https://www.dianwang.io/">Dian Wang</a>,
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
+                    <br>
+                    <a href="https://hommi-robot.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2603.03243">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://youtu.be/0rPr9DbPfuo?si=mssJLSQCmZ-V3hzW">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/xxm19/hommi">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: A data collection and policy learning framework that learns whole-body mobile manipulation directly from robot-free human demonstrations.
+                </p>
+            </div>
+            <div>
+                <a href="https://umi-ft.github.io/" style="height: 12em;" class="research-thumb">
+                    <img src="figs/umift.gif" alt="UMI-FT" style="width: 100%; height: auto;">
+                </a>
+                <a href="https://umi-ft.github.io/" class="research-proj-title">In-the-Wild Compliant Manipulation with UMI-FT </a>
+                <p> 
+                    <a style="color:#000;" href="http://www.hojungchoi.com/">Hojung Choi*</a>, 
+                    <a style="color:#000;" href="https://yifan-hou.github.io/">Yifan Hou*</a>, 
+                    <a style="color:#000;" href="https://chuerpan.com/">Chuer Pan</a>, 
+                    <a style="color:#000;" href="https://scholar.google.com/citations?user=6T-NzEkAAAAJ&hl=en">Seongheon Hong</a>, 
+                    <a style="color:#000;" href="https://austinapatel.github.io">Austin Patel</a>, 
+                    <b>Xiaomeng Xu</b>, 
+                    <a style="color:#000;" href="http://bdml.stanford.edu/Profiles/MarkCutkosky">Mark Cutkosky</a>, 
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a><br>
+                    International Conference on Robotics and Automation (ICRA 2026) <br>
+                   <a href="https://umi-ft.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                   <a href="https://arxiv.org/pdf/2510.02614">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                   <a href="https://docs.google.com/document/d/e/2PACX-1vRrfSfjj3ct5u4bdyJYX92zH3QwZahU1D0nfb9wjb6GqDXqEZYVsaxwcCh1gwJgjRlq1fbgLJECGoPf/pub">Hardware</a> </a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                   <a href="https://github.com/real-stanford/UMI-FT">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: A handheld data-collection platform that integrates compact, finger-level force/torque sensors with multimodal vision data to facilitate force-aware policy learning.
+                </p>
+            </div>
+            <div>
+                <a href="https://compliant-residual-dagger.github.io/" style="height: 12em;" class="research-thumb">
+                    <img src="figs/cr-dagger.jpg" alt="CR-DAgger" style="width: 100%; height: auto;">
+                </a>
+                <a href="https://compliant-residual-dagger.github.io/" class="research-proj-title">
+                    Compliant Residual DAgger: Improving Real-World Contact-Rich Manipulation with Human Corrections
+                </a>
+                <p>
+                    <b>Xiaomeng Xu*</b>,
+                    <a style="color:#000;" href="https://yifan-hou.github.io/">Yifan Hou*</a>,
+                    <a style="color: #000;" href="https://star-xcd.github.io/">Chendong Xin</a>,
+                    <a style="color:#000;" href="https://lzylucy.github.io/">Zeyi Liu</a>,
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
+                    <br>Neural Information Processing Systems (NeurIPS 2025)
+                    <br><a style="color:#000;" href="https://sites.google.com/view/h2r-corl2025/home">Human-to-Robot Workshop (CoRL 2025)</a>, <span style="background-color:#FFF1A8; padding:0 4px; border-radius:3px; font-weight:700;">Best Paper</span>
+                    <br>
+                    <a href="https://compliant-residual-dagger.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2506.16685">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://compliant-residual-dagger.github.io/">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Improving contact-rich manipulation with a compliant residual policy learned from on-policy delta human correction.
+                </p>
+            </div>
+            <div>
+                <a href="https://vision-in-action.github.io/" style="height: 12em;" class="research-thumb">
+                    <img src="figs/via_teaser.gif" alt="ViA Teaser" style="width: 100%; height: auto;">
+                </a>
+                <a href="https://vision-in-action.github.io/" class="research-proj-title">
+                    Vision in Action: Learning Active Perception from Human Demonstrations
+                </a>
+                <p>
+                    <a style="color:#000;" href="https://haoyu-x.github.io/">Haoyu Xiong</a>,
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://jimmyyhwu.github.io/">Jimmy Wu</a>,
+                    <a style="color:#000;" href="https://yifan-hou.github.io/">Yifan Hou</a>,
+                    <a style="color:#000;" href="https://web.stanford.edu/~bohg/">Jeannette Bohg</a>,
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
+                    <br>Conference on Robot Learning (CoRL 2025)
+                    <br>
+                    <a href="https://vision-in-action.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2506.15666">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://youtu.be/sZ7SVi7mI4o">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/haoyu-x/vision-in-action">Hardware&Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Learning where to look with a robot neck for bimanual manipulation.
+                </p>
+            </div>        
 
-<body style="width:80%;margin:auto" bgcolor="#FFFFFF">
-	<table border="0" id="table1" style="margin-left: 8px">
-		<tbody>
-			<tr>
-				<td width="323">
-					<p align="center"><font face="Calibri'"><img border="0" src="figs/me.png" height="220"></font></p>
-				</td>
-				<td >
-					<p ><font style="font-size: 24pt;">&nbsp;Xiaomeng Xu | 徐霄萌<span lang="zh-cn"></span></font></p>
+            <div>
+                <a href="https://robopanoptes.github.io/" style="height: 12em;" class="research-thumb">
+                    <video id="teaser" autoplay muted loop width="100%">
+                        <source src="figs/panoptes.mp4"
+                                type="video/mp4">
+                    </video>
+                </a>
+                <a href="https://robopanoptes.github.io/" class="research-proj-title">
+                    RoboPanoptes: The All-Seeing Robot with Whole-body Dexterity
+                </a>
+                <p>
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://dornik.github.io/">Dominik Bauer</a>,
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
+                    <br>Robotics: Science and Systems (RSS 2025)<br>
+                    <a href="https://robopanoptes.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2501.05420">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=Pa1kGAZcxrA">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/real-stanford/RoboPanoptes">Hardware&Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: A robot that utilizes all of its body parts to sense and interact with the environment.
+                </p>
+            </div>
+            <div>
+                <a href="https://dgdm-robot.github.io" style="height: 12em;" class="research-thumb">
+                    <video id="teaser" autoplay muted loop width="100%">
+                        <source src="figs/dgdm.mp4"
+                                type="video/mp4">
+                    </video>
+                </a>
+                <a href="https://dgdm-robot.github.io" class="research-proj-title">
+                    Dynamics-Guided Diffusion Model for Sensor-less Robot Manipulator Design
+                </a>
+                <p>
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://www.cs.columbia.edu/~huy/">Huy Ha</a>,
+                    <a style="color:#000;" href="https://shurans.github.io/">Shuran Song</a>
+                    <br>Conference on Robot Learning (CoRL 2024)
+                    <br><a style="color:#000;" href="https://sites.google.com/view/corl-mapodel-workshop">MAPoDeL Workshop (CoRL 2024)</a>, <span style="background-color:#FFF1A8; padding:0 4px; border-radius:3px; font-weight:700;">Best Machine Learning Paper</span>
+                    <br><a style="color:#000;" href="https://roboassembly.github.io/">Assembly Workshop (CoRL 2024)</a>, Spotlight Presentation<br>
+                    <a href="https://dgdm-robot.github.io">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2402.15038">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=8KSW1_zaGJU">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/real-stanford/dgdm">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Learning to design task-specific manipulators without task-specific training.
+                </p>
+            </div>
 
-					<p style="margin-top: -0.8mm;margin-bottom: 3mm"><font face="Calibri'" style="font-size: 12pt;">&nbsp; EE PhD student at Stanford</font></p>
+            <div>
+                <a href="https://xxm19.github.io/jnerf/" style="height: 12em;" class="research-thumb">
+                    <video id="teaser" autoplay muted loop width="100%">
+                        <source src="figs/jnerf.mp4"
+                                type="video/mp4">
+                    </video>
+                </a>
+                <a href="https://xxm19.github.io/jnerf/" class="research-proj-title">
+                    JacobiNeRF: NeRF Shaping with Mutual Information Gradients
+                </a>
+                <p>
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://yanchaoyang.github.io/">Yanchao Yang</a>,
+                    <a style="color:#000;" href="https://kaichun-mo.github.io/">Kaichun Mo</a>,
+                    <a style="color:#000;" href="https://cs.stanford.edu/~bxpan/">Boxiao Pan</a>,
+                    <a style="color:#000;" href="https://ericyi.github.io/">Li Yi</a>,
+                    <a style="color:#000;" href="https://geometry.stanford.edu/member/guibas/index.html">Leonidas J. Guibas</a>
+                    <br>Conference on Computer Vision and Pattern Recognition (CVPR 2023)<br>
+                    <a href="https://xxm19.github.io/jnerf/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2304.00341">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=uKU9UdVL6GQ">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/xxm19/jacobinerf">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Shaping a NeRF to encode mutual correlations in a scene via aligning Jacobians.
+                </p>
+            </div>
 
-					<p style="margin-top: 3mm;margin-bottom: 3mm"><font face="Calibri'" style="font-size: 12pt;">&nbsp; <b>Email</b>: xuxm@stanford.edu</font></p>
-					
-					&nbsp;
-					<a href="cv/xxm_cv.pdf" style="font-size: 12pt;margin-top: -0.8mm;margin-bottom: 3mm"><b>CV</b></a> &bull;
-					<a href="https://github.com/xxm19" style="font-size: 12pt;"><b>GitHub</b></a> &bull;
-					<a href="https://scholar.google.com.hk/citations?hl=en&user=af_4iHYAAAAJ" style="font-size: 12pt;"><b>GScholar</b></a> &bull;
-					<a href="https://twitter.com/XiaomengXu11" style="font-size: 12pt;"><b>Twitter</b></a>
+            <div>
+                <a href="https://arxiv.org/abs/2210.04026" style="height: 12em;" class="research-thumb">
+                    <video id="teaser" autoplay muted loop width="100%">
+                        <source src="figs/tegtrack.mp4"
+                                type="video/mp4">
+                    </video>
+                </a>
+                <a href="https://arxiv.org/abs/2210.04026" class="research-proj-title">
+                    Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing
+                </a>
+                <p>
+                    Yun Liu*,
+                    <b>Xiaomeng Xu*</b>,
+                    Weihang Chen, Haocheng Yuan,
+                    <a style="color:#000;" href="https://hughw19.github.io/">He Wang</a>, Jing Xu,
+                    <a style="color:#000;" href="https://cray695.wixsite.com/mysite">Rui Chen</a>,
+                    <a style="color:#000;" href="https://ericyi.github.io/">Li Yi</a>
+                    <br>Robotics and Automation Letters (RA-L 2023) with a presentation at ICRA 2024<br>
+                    <a href="https://arxiv.org/abs/2210.04026">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=S8lnBQhsfHk">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/leolyliu/TEG-Track">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Tactile-enhanced 6D pose tracking of previously unseen in-hand objects.
+                </p>
+            </div>
 
-				</td>
+            <div>
+                <a href="https://autogpart.github.io/" style="height: 12em;" class="research-thumb">      
+                    <video id="teaser" autoplay muted loop width="100%">
+                        <source src="figs/autogpart.mp4"
+                                type="video/mp4">
+                    </video>
+                </a>
+                <a href="https://autogpart.github.io/" class="research-proj-title">
+                    AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation
+                </a>
+                <p>
+                    <a style="color:#000;" href="https://meowuu7.github.io/">Xueyi Liu</a>,
+                    <b>Xiaomeng Xu</b>,
+                    <a style="color:#000;" href="https://anyirao.com/">Anyi Rao</a>,
+                    <a style="color:#000;" href="https://people.csail.mit.edu/ganchuang/">Chuang Gan</a>,
+                    <a style="color:#000;" href="https://ericyi.github.io/">Li Yi</a>
+                    <br>Conference on Computer Vision and Pattern Recognition (CVPR 2022)<br>
+                    <a href="https://autogpart.github.io/">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2203.06558">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/watch?v=Z0wqKLgf5ME">Video</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://github.com/Meowuu7/AutoGPart">Code</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: Improving the generalizability of 3D part segmentation networks by searching for intermediate supervisions.
+                </p>
+            </div>
 
-			</tr>
-		</tbody>
-	</table>
+            <div>
+                <a href="https://www.liuguanhong.com/blog/vivipaint" style="height: 12em;" class="research-thumb"><iframe title='VideoPress Video Player' aria-label='VideoPress Video Player' width='500' height='281' src='https://video.wordpress.com/embed/NRFOiBdC?cover=1&amp;autoPlay=1&amp;controls=0&amp;loop=1&amp;muted=1&amp;persistVolume=0&amp;playsinline=1&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=0' frameborder='0' allowfullscreen data-resize-to-parent="true"  allow='clipboard-write' ></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1674852142'></script>
+                </a>
+                <a href="https://www.liuguanhong.com/blog/vivipaint" class="research-proj-title">
+                    ViviPaint: Creating Dynamic Painting with a Thermochromic Toolkit
+                </a>
+                <p>
+                    Guanhong Liu, Tianyu Yu, Zhihao Yao, Haiqing Xu, Yunyi Zhang, Xuhai Xu, <b>Xiaomeng Xu</b>, Mingyue Gao, Qirui Sun, Tingliang Zhang, Haipeng Mi
+                    <br>Multimodal Technologies and Interaction (MTI 2022)<br>
+                    <a href="https://www.liuguanhong.com/blog/vivipaint">Website</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                    <a href="https://doi.org/10.3390/mti6080063">Paper</a>
+                </p>
+                <br>
+                <p>
+                    <b>TL;DR</b>: A toolkit that assists artists and enthusiasts in creating thermochromic paintings.
+                </p>
+            </div>
 
-<table style="margin-left: 60px;">
-		<tbody>
-			<td>
-				<td style="border-style: none; border-width: medium;">
-					<p style="margin-top: 3px; margin-bottom: 3px;"><font face="Calibri'" style="font-size: 12pt;">
-						<br>
-						I am a first-year Electrical Engineering PhD student at Stanford University, advised by Prof. <a href="https://shurans.github.io/">Shuran Song</a>. My research interest lies in robotics and embodied AI. Previously, I obtained a B.E. in Automation Engineering and a B.A. in Product Design from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>. During my undergrad, I was fortunate to be advised by Prof. <a href="http://geometry.stanford.edu/member/guibas/index.html">Leonidas Guibas</a> at Stanford and Prof. <a href="https://ericyi.github.io/">Li Yi</a> at Tsinghua University.
-						<br>
-					</font></p>
-				</td>
-			</td>
-		</tbody>
-</table>
+            <div style="clear: both;"></div>
+        </div>
+        <div>
+            <p>
+                * equal contribution.
+            </p>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="blog">
+            <h1>Blog</h1>
+            <div>
+                <a href="https://ai.stanford.edu/blog/robopanoptes/" style="height: 12em;" class="research-thumb">
+                    <img src="figs/all robots.png" alt="Blog thumbnail" style="width: 100%; height: auto;">
+                </a>
+                <a href="https://ai.stanford.edu/blog/robopanoptes/" class="research-proj-title">
+                    How Machine Learning Brings Unconventional Robots to Life
+                </a>
+                <p>
+                    Robot learning has largely focused on standard platforms—but can it embrace robots of all shapes and sizes?
+                    In this blog post, we show how data-driven methods bring unconventional robots to life, enabling capabilities that traditional designs and control can't achieve.
+                    <br><br>
+                    <a href="https://ai.stanford.edu/blog/robopanoptes/" style="display:inline-block; margin-top: 8px; padding: 6px 12px; background-color: #AFDDFF; color: white; text-decoration: none; border-radius: 4px; font-size: 1em;">
+                    <b>Continue reading →</b>
+                    </a>
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
 
-<table style="width:80%;margin-left: 55px;">
-	<tbody>
-	<tr>
-		<p style="margin-left: 60px;margin-bottom: -10px"><b><font size="5">
-		Publications</font></b></p>
-	</tr>
+        <div class="section" id="talks">
+            <h1>Talks</h1>
+            <ul>
+                <li> [Apr 2026] <b>From Human Demonstrations to Human Corrections</b> @ <a href="https://rchi-lab.github.io">RCHI Lab</a>, CMU</li>
+                <li> [Apr 2026] <b>HoMMI: Learning Whole-Body Mobile Manipulation from Human Demonstrations</b> @ <a href="https://lecar-lab.github.io">LeCAR Lab</a>, CMU</li>
+                <li> [Mar 2026] <b>Learning Whole-Body Manipulation via Hardware-Policy Co-design</b> @ SJTU</a></li>
+                <li> [Aug 2025] <b>Embodiment-Aware Robot Learning: Co-designing Robot Morphology, Sensing, and Control</b> @ <a href="https://www2.ccs.neu.edu/research/helpinghands/">The Helping Hands Lab</a>, Northeastern University</li>
+            </ul><br>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="divider"></div>
 
-	<tr align="left">
-		<td width="20%" valign="top"><p><img src="./figs/jnerf.png" width="360" alt="jnerf"  align="top"></p></td>
-		<td width="80%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-			<strong >JacobiNeRF: NeRF Shaping with Mutual Information Gradients</strong><br>
-						<b>Xiaomeng Xu</b>, Yanchao Yang, Kaichun Mo, Boxiao Pan, Li Yi, Leonidas J. Guibas<br>
-						Conference on Computer Vision and Pattern Recognition (CVPR 2023)<br> 
-			<a href="https://arxiv.org/abs/2304.00341"><b>Paper</b></a> |
-			<a href="https://xxm19.github.io/jnerf/"><b>Project</b></a> | <a href="https://www.youtube.com/watch?v=uKU9UdVL6GQ"><b>Video</b></a> | <a href="https://github.com/xxm19/jacobinerf"><b>Code</b></a>
-			</p></td></tr>
-
-	<tr align="left">
-	<td width="20%" valign="top"><p><img src="./figs/tegtrack.png" width="360"  alt="tegtrack"  align="top"></p></td>
-	<td width="80%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-		<strong >Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing</strong><br>
-					<b>Xiaomeng Xu</b>*, Yun Liu*, Weihang Chen, Haocheng Yuan, He Wang, Jing Xu, Rui Chen, Li Yi<br>
-					Robotics and Automation Letters (RA-L 2023)<br>
-					<a href="https://arxiv.org/abs/2210.04026"><b>Paper</b></a> 
-		</p></td></tr>
-
-	<tr align="left">
-	<td width="20%" valign="top"><p><img src="./figs/autogpart.png" width="360" alt="autogpart  align="top"></p></td>
-	<td width="80%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-		<strong >AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation</strong><br>
-					Xueyi Liu, <b>Xiaomeng Xu</b>, Anyi Rao, Chuang Gan, Li Yi<br>
-					Conference on Computer Vision and Pattern Recognition (CVPR 2022)<br>
-		<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_AutoGPart_Intermediate_Supervision_Search_for_Generalizable_3D_Part_Segmentation_CVPR_2022_paper.html"><b>Paper</b></a> |
-		<a href="https://autogpart.github.io/"><b>Project</b></a> | <a href="https://github.com/Meowuu7/AutoGPart"><b>Code</b></a>
-		</p></td></tr>
-
-	<tr align="left">
-		<td width="20%" valign="top"><p><img src="./figs/vivipaint.png" width="360" alt="autogpart  align="top"></p></td>
-		<td width="80%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-			<strong >ViviPaint: Creating Dynamic Painting with a Thermochromic Toolkit</strong><br>
-			Guanhong Liu, Tianyu Yu, Zhihao Yao, Haiqing Xu, Yunyi Zhang, Xuhai Xu, <b>Xiaomeng Xu</b>, Mingyue Gao, Qirui Sun, Tingliang Zhang, Haipeng Mi<br>
-					Multimodal Technologies and Interaction (MTI 2022)<br>
-			<a href="https://doi.org/10.3390/mti6080063"><b>Paper</b></a>
-			</p></td></tr>
-	
-	<tr>
-		<p style="font-size: 12pt;margin-left: 60px;margin-bottom: -10px">
-		* equal contribution</p>
-	</tr>
-		
-
-	</tbody>
-</table>
-
-
-<table style="width:80%;margin-left: 55px;">
-	<tbody>
-	<tr>
-		<p style="margin-left: 60px;margin-bottom: -10px"><b><font size="5">
-		Experience</font></b></p>
-	</tr>
-
-	<tr align="left">
-		<td width="10%" valign="top"><p><img src="./figs/stanford.png" width="120" alt="stanford"  align="top"></p></td>
-		<td width="90%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-			<strong >Stanford University</strong><br>
-					2023.09- <br> 
-					<br>
-					Ph.D. Student in Electrical Engineering<br>
-					Advisor: Prof. <a href="https://shurans.github.io/">Shuran Song</a>
-			</p></td></tr>
-	</tbody>
-
-	<tr align="left">
-		<td width="10%" valign="top"><p><img src="./figs/tsinghua.jpg" width="120" alt="tsinghua"  align="top"></p></td>
-		<td width="90%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-			<strong >Tsinghua University</strong><br>
-					2019.09-2023.06 <br> 
-					<br>
-					B.E. in Automation Engineering, B.A. in Product Design<br>
-					Research advisor: Prof. <a href="https://ericyi.github.io/">Li Yi</a>
-			</p></td></tr>
-	</tbody>
-
-	<tr align="left">
-		<td width="10%" valign="top"><p><img src="./figs/stanford.png" width="120" alt="stanford"  align="top"></p></td>
-		<td width="90%" valign="top"><p style="font-size: 12pt;line-height: 1.5; margin-left: 10px">
-			<strong >Stanford University</strong><br>
-					2022.06-2022.11 <br> 
-					<br>
-					Visiting Research Student through the <a href="https://engineering.stanford.edu/students-academics/programs/global-engineering-programs/chinese-ugvr">UGVR program</a> <br>
-					Advisor: Prof. <a href="http://geometry.stanford.edu/member/guibas/index.html">Leonidas Guibas</a>
-			</p></td></tr>
-	</tbody>
-
-	<!-- <tr align="left">
-		<td width="10%" valign="top"><p><img src="./figs/qhfz.png" width="120" alt="qhfz"  align="top"></p></td>
-		<td width="90%" valign="top"><p style="font-size: 12pt;line-height: 1.5;margin-left: 10px">
-			<strong >Tsinghua High School</strong><br>
-					2016.09-2019.07 <br> 
-					<br>
-					High School <br>
-
-			</p></td></tr> -->
-	</tbody>
-</table>
-
-
-<p style="margin-left: 60px"><b><font size="5"><br>
-		Awards</font></b></p>
-		<font style="font-size: 12pt; line-height: 1.5;">
-			<ul style="margin-left: 60px;margin-top: -10px">
-				<li>Outstanding Graduate, Tsinghua University, 2023.</li>
-				<li>Comprehensive Excellence Award, Tsinghua University, 2022.</li>
-				<li>Chinese National Scholarship, 2021.</li>
-				<li>129 Scholarship, Tsinghua University, 2020.</li>
-				<li>Innovation Award of Science and Technology, Tsinghua University, 2020-2022.</li>
-			</ul>
-		</font>
+        <div class="section" id="service">
+            <h1>Service</h1>
+            <ul>
+                <li> Workshop co-organizer:
+                    <ul>
+                        <li><a href="https://rl4il-icra.github.io">Workshop on Reinforcement Learning in the Era of Imitation Learning @ ICRA 2026</a></li>
+                        <li><a href="https://rss-hardware-intelligence.github.io/">RSS 2025 1st Workshop on Robot Hardware-Aware Intelligence</a></li>
+                    </ul>
+                </li>
+                <br>
+                <li> Reviewer of RSS 2025, CoRL 2025, T-RO 2025, RA-L 2025, ICRA 2024, IROS 2025, NeurIPS 2024-2025, ICLR 2025-2026, ICML 2025, AAAI 2025 </li>
+                <br>
+                <li> Teaching assistant of <a href="https://sites.google.com/view/aut24-25-eecs-227/home">EE/CS227: Robot Perception</a> (Fall 2024-2025)</li>
+                <!-- <li> Drop-in tutor for engineering courses at Tsinghua University. -->
+            </ul><br>
+            <p></p>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
 
 </body>
-
-<table style="width:80%;margin-left: 55px;margin-top: 10px;margin-bottom: 10px;" cellspacing="15">
-	<tbody>
-	<tr>
-		<p style="margin-left: 60px;margin-bottom: 10px"><b><font size="5">
-		Designs</font></b></p>
-	</tr>
-	<tr align="center">
-		<td>
-			<img src="./design/0.png" height="180" alt="design0"  align="center">
-		</td>
-		<td>
-			<img src="./design/1.png" height="180" alt="design1"  align="center">
-		</td>
-		<td>
-			<img src="./design/2.png" height="180" alt="design2"  align="center">
-		</td>
-	</tr>
-
-	<tr align="center">
-		<td>
-			<img src="./design/3.png" height="180" alt="design3"  align="center">
-		</td>
-		<td>
-			<img src="./design/4.png" height="180" alt="design4"  align="center">
-		</td>
-		<td>
-			<img src="./design/5.png" height="180" alt="design5"  align="center">
-		</td>
-	</tr>
-
-	<tr align="center">
-		<td>
-			<img src="./design/8.png" height="180" alt="design8"  align="center">
-		</td>
-		<td>
-			<video src="./design/11.mp4" controls height="180" autoplay muted loop>
-		</td>
-		<td>
-			<img src="./design/7.png" height="180" alt="design7"  align="center">
-		</td>
-	</tr>
-
-	<!-- <tr align="center">
-		<td>
-			<img src="./design/10.png" height="180" alt="design10"  align="center">
-		</td>
-		<td>
-			<video src="./design/12.mp4" controls height="180" autoplay muted loop>
-		</td>
-		<td>
-			<img src="./design/9.png" height="180" alt="design9"  align="center">
-		</td>
-	</tr> -->
-
-	</tbody>
-</table>
-
-<table style="width:80%;margin-left: 55px;margin-top: 10px;margin-bottom: 20px" cellspacing="10">
-	<tbody>
-	<tr>
-		<p style="margin-left: 60px;margin-bottom: 10px"><b><font size="5">
-		Paintings</font></b></p>
-	</tr>
-	
-	<tr align="center">
-		<td>
-			<img src="./painting/0.jpg" height="180" alt="painting0"  align="center">
-		</td>
-		<td>
-			<img src="./painting/1.jpg" height="180" alt="painting1"  align="center">
-		</td>
-		<td>
-			<img src="./painting/2.jpg" height="180" alt="painting2"  align="center">	
-		</td>
-		<td>
-			<img src="./painting/3.jpg" height="180" alt="painting3"  align="center">
-		</td>
-		<td>
-			<img src="./painting/4.jpg" height="180" alt="painting4"  align="center">
-		</td>
-		<td>
-			<img src="./painting/5.jpg" height="180" alt="painting5"  align="center">
-		</td>
-		<td>
-			<img src="./painting/6.jpg" height="180" alt="painting6"  align="center">
-		</td>
-	</tr>
-
-	<tr align="center">
-		<td>
-			<img src="./painting/10.jpg" height="100" alt="painting10"  align="center">
-		</td>
-		<td>
-			<img src="./painting/12.jpg" height="100" alt="painting12"  align="center">
-		</td>
-		<td>
-			<img src="./painting/11.jpg" height="100" alt="painting11"  align="center">
-		</td>
-		<td>
-			<img src="./painting/13.jpg" height="100" alt="painting13"  align="center">
-		</td>
-
-		<td>
-			<img src="./painting/14.jpg" height="100" alt="painting14"  align="center">
-		</td>
-		<td>
-			<img src="./painting/15.jpg" height="100" alt="painting15"  align="center">
-		</td>
-		<td>
-			<img src="./painting/16.jpg" height="100" alt="painting16"  align="center">
-		</td>
-	</tr>
-
-	<tr align="center">
-		<td>
-			<img src="./painting/30.jpg" height="100" alt="painting30"  align="center">
-		</td>
-		<td>
-			<img src="./painting/31.jpg" height="100" alt="painting31"  align="center">
-		</td>
-		<td>
-			<img src="./painting/32.jpg" height="100" alt="painting32"  align="center">
-		</td>
-		<td>
-			<img src="./painting/33.jpg" height="100" alt="painting33"  align="center">
-		</td>
-
-		<td>
-			<img src="./painting/34.jpg" height="100" alt="painting34"  align="center">
-		</td>
-		<td>
-			<img src="./painting/27.jpg" height="100" alt="painting27"  align="center">
-		</td>
-		<td>
-			<img src="./painting/37.jpg" height="100" alt="painting37"  align="center">
-		</td>
-	</tr>
-
-	<tr align="center">
-		<td>
-			<img src="./painting/7.jpg" height="180" alt="painting7"  align="center">
-		</td>
-
-		<td>
-			<img src="./painting/8.jpg" height="180" alt="painting8"  align="center">
-		</td>
-		<td>
-			<img src="./painting/9.jpg" height="180" alt="painting9"  align="center">
-		</td>
-		<td>
-			<img src="./painting/17.jpg" height="180" alt="painting17"  align="center">
-		</td>
-		<td>
-			<img src="./painting/18.jpg" height="180" alt="painting18"  align="center">
-		</td>
-		<td>
-			<img src="./painting/19.jpg" height="180" alt="painting19"  align="center">
-		</td>
-		<td>
-			<img src="./painting/20.jpg" height="180" alt="painting20"  align="center">
-		</td>
-	</tr>	
-
-	<tr align="center">
-		<td>
-			<img src="./painting/23.jpg" height="180" alt="painting23"  align="center">
-		</td>
-		<td>
-			<img src="./painting/28.jpg" height="180" alt="painting28"  align="center">
-		</td>
-		<td>
-			<img src="./painting/29.jpg" height="180" alt="painting29"  align="center">
-		</td>
-		<td>
-			<img src="./painting/22.jpg" height="180" alt="painting22"  align="center">
-		</td>
-		<td>
-			<img src="./painting/24.jpg" height="180" alt="painting24"  align="center">
-		</td>
-		<td>
-			<img src="./painting/25.jpg" height="180" alt="painting25"  align="center">
-		</td>
-		<td>
-			<img src="./painting/26.jpg" height="180" alt="painting26"  align="center">
-		</td>
-	</tr>	
-
-	</tbody>
-</table>
-
-
 
 </html>
